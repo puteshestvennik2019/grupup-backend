@@ -8,4 +8,16 @@ const pool = new Pool({
   database: "grupup",
 });
 
+// ================================
+
+// client
+//   .connect()
+//   .then(() => console.log("Connected to postgres batabase"))
+//   // .then(() => client.query("create table users_table"))
+//   //   .then((res) => console.table(res.rows))
+//   .catch((e) => console.log(e))
+//   .finally(() => client.end());
+
+// ===============================
+
 module.exports = pool;
